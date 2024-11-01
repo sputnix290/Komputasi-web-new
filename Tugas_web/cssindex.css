@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color:white;
+}
+.navigasi_bar {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-left: 1.4rem;
+    border-bottom: 1px solid #513c28;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.menu {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0.3rem;
+}
+.menu:hover {
+    color: #ff0000;
+}
+
+#humberger_menu {
+    color:white;
+    margin: 0.5rem;
+}
+
+#humberger_menu:hover{
+    color: #ff0000;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(130vh - 130px);
+    background-image: url(luca-bravo-XJXWbfSo2f0-unsplash.jpg);
+    
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left 75%;
+    
+
+}
+.hero-text h1 {
+    font-size: 50px;
+    margin: 0;
+    
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+ .img {
+    padding: 50px;
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+ }
+  section div p a {
+    font-family: 'poppins', sans-serif;
+    font-weight: 100;
+  }
+  section div h1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 100;
+  }
+
